@@ -2,12 +2,12 @@
 
 @section('content')
     <div class="row">
-        <div class="col-lg-12 margin-tb">
-            <div class="pull-left">
-                <h2> Show Product</h2>
+        <div class="col-lg-12 d-flex align-items-center justify-content-between">
+            <div class="my-3">
+                <h2>Show Product</h2>
             </div>
             <div class="pull-right">
-                <a class="btn btn-primary" href="{{ route('products.index') }}"> Back</a>
+                <a class="btn btn-primary" href="{{ route('products.index') }}">Back</a>
             </div>
         </div>
     </div>
